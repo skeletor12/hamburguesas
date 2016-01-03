@@ -12,6 +12,7 @@
 		EE1788F51C38E65500E42F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1788F31C38E65500E42F74 /* Main.storyboard */; };
 		EE1788F71C38E65500E42F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1788F61C38E65500E42F74 /* Assets.xcassets */; };
 		EE1788FA1C38E65500E42F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1788F81C38E65500E42F74 /* LaunchScreen.storyboard */; };
+		EE1789031C38E67000E42F74 /* dstos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1789021C38E67000E42F74 /* dstos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		EE1788F61C38E65500E42F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1788F91C38E65500E42F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1788FB1C38E65500E42F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1789011C38E66400E42F74 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
+		EE1789021C38E67000E42F74 /* dstos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dstos.swift; path = ../dstos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 				EE1788EF1C38E65500E42F74 /* AppDelegate.swift */,
 				EE1788F11C38E65500E42F74 /* ViewController.swift */,
 				EE1788F31C38E65500E42F74 /* Main.storyboard */,
+				EE1789021C38E67000E42F74 /* dstos.swift */,
+				EE1789011C38E66400E42F74 /* MyPlayground.playground */,
 				EE1788F61C38E65500E42F74 /* Assets.xcassets */,
 				EE1788F81C38E65500E42F74 /* LaunchScreen.storyboard */,
 				EE1788FB1C38E65500E42F74 /* Info.plist */,
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1788F21C38E65500E42F74 /* ViewController.swift in Sources */,
+				EE1789031C38E67000E42F74 /* dstos.swift in Sources */,
 				EE1788F01C38E65500E42F74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.univeronline.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.univeronline.Hamburguesas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
